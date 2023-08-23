@@ -78,16 +78,19 @@ const Contact = () => {
           </div>
         </div>
         <form
+          onSubmit="submit"
           name="contact"
+          method="POST"
           className="contact__form"
           // onSubmit={handleSubmit}
-          netlify
+          data-netlify="true"
         >
           <div className="form__input-group">
             <div className="form__input-div">
               <input
                 type="text"
                 placeholder="Your Name"
+                name="name"
                 className="form__control"
               />
             </div>
@@ -96,6 +99,7 @@ const Contact = () => {
                 type="email"
                 placeholder="Your Email"
                 className="form__control"
+                name="email"
               />
             </div>
             <div className="form__input-div">
