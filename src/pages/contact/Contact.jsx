@@ -14,9 +14,9 @@ import { FiSend } from "react-icons/fi";
 import "./contact.css";
 
 const Contact = () => {
-  // const handleSubmit = (e) => {
-  //   e.preventDefault(); // Prevents the default form submission behavior
-  // };
+  const handleSubmit = (e) => {
+    e.preventDefault(); // Prevents the default form submission behavior
+  };
   return (
     <section className="contact section">
       <h2 className="section__title">
@@ -78,11 +78,11 @@ const Contact = () => {
           </div>
         </div>
         <form
-          onSubmit="submit"
+          // onSubmit
           method="post"
           name="contact"
           className="contact__form"
-          // onSubmit={handleSubmit}
+          onSubmit={handleSubmit}
         >
           <input type="hidden" name="form-name" value="contact" />
           <div className="form__input-group">
