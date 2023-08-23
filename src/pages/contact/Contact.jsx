@@ -15,7 +15,7 @@ import "./contact.css";
 
 const Contact = () => {
   const handleSubmit = (e) => {
-    e.preventDefault(); // Prevents the default form submission behavior
+    // e.preventDefault(); // Prevents the default form submission behavior
   };
   return (
     <section className="contact section">
