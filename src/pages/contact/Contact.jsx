@@ -79,12 +79,13 @@ const Contact = () => {
         </div>
         <form
           onSubmit="submit"
+          method="post"
           name="contact"
-          action="POST"
           className="contact__form"
           // onSubmit={handleSubmit}
           data-netlify="true"
         >
+          <input type="hidden" name="form-name" value="contact" />
           <div className="form__input-group">
             <div className="form__input-div">
               <input
@@ -106,6 +107,7 @@ const Contact = () => {
               <input
                 type="text"
                 placeholder="Your Subject"
+                name="subject"
                 className="form__control"
               />
             </div>
@@ -113,6 +115,7 @@ const Contact = () => {
           <div className="form__input-div">
             <textarea
               placeholder="Your Message"
+              name="message"
               className="form__control textarea"
             ></textarea>
           </div>
