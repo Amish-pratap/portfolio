@@ -15,7 +15,7 @@ import "./contact.css";
 
 const Contact = () => {
   const handleSubmit = (e) => {
-    // e.preventDefault(); // Prevents the default form submission behavior
+    e.preventDefault(); // Prevents the default form submission behavior
   };
   return (
     <section className="contact section">
@@ -77,7 +77,12 @@ const Contact = () => {
             </a>
           </div>
         </div>
-        <form className="contact__form" onSubmit={handleSubmit}>
+        <form
+          name="contact"
+          className="contact__form"
+          onSubmit={handleSubmit}
+          netlify
+        >
           <div className="form__input-group">
             <div className="form__input-div">
               <input
