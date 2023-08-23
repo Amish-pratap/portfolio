@@ -83,7 +83,6 @@ const Contact = () => {
           name="contact"
           className="contact__form"
           // onSubmit={handleSubmit}
-          data-netlify="true"
         >
           <input type="hidden" name="form-name" value="contact" />
           <div className="form__input-group">
