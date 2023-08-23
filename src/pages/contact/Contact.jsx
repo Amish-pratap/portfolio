@@ -78,6 +78,7 @@ const Contact = () => {
           </div>
         </div>
         <form
+          // action="/success"
           onSubmit="submit"
           method="post"
           name="contact"
@@ -88,6 +89,7 @@ const Contact = () => {
           <div className="form__input-group">
             <div className="form__input-div">
               <input
+                required
                 type="text"
                 placeholder="Your Name"
                 name="name"
@@ -96,6 +98,7 @@ const Contact = () => {
             </div>
             <div className="form__input-div">
               <input
+                required
                 type="email"
                 placeholder="Your Email"
                 className="form__control"
@@ -104,6 +107,7 @@ const Contact = () => {
             </div>
             <div className="form__input-div">
               <input
+                required
                 type="text"
                 placeholder="Your Subject"
                 name="subject"
