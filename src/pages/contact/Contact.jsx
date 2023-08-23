@@ -112,7 +112,7 @@ const Contact = () => {
               className="form__control textarea"
             ></textarea>
           </div>
-          <button className="button">
+          <button type="submit" className="button">
             Send Message
             <span className="button__icon contact__button-icon">
               <FiSend />
