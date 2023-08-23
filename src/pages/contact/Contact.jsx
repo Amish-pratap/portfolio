@@ -80,7 +80,7 @@ const Contact = () => {
         <form
           onSubmit="submit"
           name="contact"
-          method="POST"
+          action="POST"
           className="contact__form"
           // onSubmit={handleSubmit}
           data-netlify="true"
@@ -116,6 +116,7 @@ const Contact = () => {
               className="form__control textarea"
             ></textarea>
           </div>
+          <div data-netlify-recaptcha="true"></div>
           <button type="submit" className="button">
             Send Message
             <span className="button__icon contact__button-icon">
