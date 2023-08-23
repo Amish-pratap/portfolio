@@ -14,9 +14,9 @@ import { FiSend } from "react-icons/fi";
 import "./contact.css";
 
 const Contact = () => {
-  const handleSubmit = (e) => {
-    e.preventDefault(); // Prevents the default form submission behavior
-  };
+  // const handleSubmit = (e) => {
+  //   e.preventDefault(); // Prevents the default form submission behavior
+  // };
   return (
     <section className="contact section">
       <h2 className="section__title">
@@ -80,7 +80,7 @@ const Contact = () => {
         <form
           name="contact"
           className="contact__form"
-          onSubmit={handleSubmit}
+          // onSubmit={handleSubmit}
           netlify
         >
           <div className="form__input-group">
