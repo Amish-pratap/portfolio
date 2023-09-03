@@ -12,7 +12,7 @@ import { FiFileText, FiUser, FiExternalLink } from "react-icons/fi";
 import Work1 from "./assets/project-1.png";
 import Work2 from "./assets/project-2.png";
 import Work3 from "./assets/project-3.png";
-import Work4 from "./assets/project-4.jpeg";
+import Work4 from "./assets/project-4.png";
 import Work5 from "./assets/project-5.jpg";
 import Work6 from "./assets/project-6.jpg";
 
@@ -285,6 +285,33 @@ export const skills = [
 
 export const portfolio = [
   {
+    id: 4,
+    img: Work4,
+    title: "Mern App",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Messaging App",
+      },
+      // {
+      //   icon: <FiUser />,
+      //   title: "Client : ",
+      //   desc: "Dribble",
+      // },
+      {
+        icon: <FaCode />,
+        title: "Language : ",
+        desc: "MERN stack with Socket.IO",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: "https://chit-chat-7zvx.onrender.com/",
+      },
+    ],
+  },
+  {
     id: 1,
     img: Work1,
     title: "MERN App",
@@ -367,34 +394,6 @@ export const portfolio = [
       },
     ],
   },
-
-  // {
-  //   id: 4,
-  //   img: Work4,
-  //   title: "Video Editing",
-  //   details: [
-  //     {
-  //       icon: <FiFileText />,
-  //       title: "Project : ",
-  //       desc: "Video",
-  //     },
-  //     {
-  //       icon: <FiUser />,
-  //       title: "Client : ",
-  //       desc: "Dribble",
-  //     },
-  //     {
-  //       icon: <FaCode />,
-  //       title: "Language : ",
-  //       desc: "Adobe Premium",
-  //     },
-  //     {
-  //       icon: <FiExternalLink />,
-  //       title: "Preview : ",
-  //       desc: "www.dribble.com",
-  //     },
-  //   ],
-  // },
 
   // {
   //   id: 5,
